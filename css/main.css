@@ -1,11 +1,30 @@
+/* body {
+    font-family: 'MedievalSharp', sans-serif;
+} */
+
 #nav-main{
     background-color: rgba(49,81,30,80%) ;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 30px 10px 30px;
 }
 #nav-logo{
     width:150px;
 }
 #nav-list{
     margin-bottom:0px;
+    list-style-type:none;
+    padding:0px;
+    display: flex;
+}
+#nav-list .nav-item {
+    margin-left:20px;
+    font-size:16px;
+    font-weight:500;
+    color: #C59E60;
+    font-family: 'MedivalSharp', sans-serif;
+    display: flex;
 }
 #all-footer{
     background-color: rgba(49,81,30,80%) ;

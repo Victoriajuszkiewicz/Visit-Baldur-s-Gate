@@ -15,6 +15,9 @@ The user interface is thematically crafted that mirrors game's enviroment.
 - Bootstrap icons
 
 ## Installation Instructions
+Copy repo to your terminal.
+Run git clone "repo link"
+Either open HTML file to see the website or install Live Server extention.
 
 ## Features of the website
 ### CORE FETURES:
@@ -27,9 +30,9 @@ The user interface is thematically crafted that mirrors game's enviroment.
 - Responsive design- for different screen sizes & for all modern browsers,
 - Interactive contact feature,
 - Validation for the contact form,
-- One map,
 - SEO keywords,
 - Accessibility (extra),
+
 ### NICE TO HAVE:
 - Accessibility options (high contrast, big letters, audio controls),
 - Virtual tour,
