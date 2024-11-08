@@ -1,7 +1,19 @@
 # Tourism website "Discover Baldur's Gate"
 
 ## Project Description
+"Discover Baldur's Gate" is an interactive tourism website binspired by city Baldur's Gate from Dungeons &D ragons lore and Baldur's Gate 3 game.
+
+The website is designed to guide visitors though the city's acommondatipon options, hidden gems and local shopping.
+
+The user interface is thematically crafted that mirrors game's enviroment.
+
 ## Technologies Used
+- HTML
+- CSS
+- Vanilla JavaScript
+- Bootstrap 5
+- Bootstrap icons
+
 ## Installation Instructions
 
 ## Features of the website
