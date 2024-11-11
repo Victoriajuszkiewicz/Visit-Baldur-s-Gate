@@ -45,4 +45,3 @@ Either open HTML file to see the website or install Live Server extention.
 ## to do:
 - find out why font is not working
 - footer icons not visible
-- nav bar styling 
