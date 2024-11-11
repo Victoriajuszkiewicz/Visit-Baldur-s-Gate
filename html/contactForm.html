@@ -1,16 +1,57 @@
-<div>
-    <h2>
-        Contact us
-    </h2>
-    <p>Send a pigeon with your request. 
-    Please be aware that it takes up to 4 working days for us to receive your pigeon.</p>
-Name <input type="text"></input>
-Email <input type="email"></input>
-Pigeon number <input type="tel" name="pigeon number"></input>
-<button>Send</button>
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Two-column Layout -->
+        <div class="row">
+          <!-- Left Column (Text and Form) -->
+          <div class="col-md-6">
+            <h2>Contact Us</h2>
+            <p>Send a pigeon with your request. Please be aware that it takes up to 4 working days for us to receive your pigeon.</p>
+            
+            <!-- Form -->
+            <form class="contact-form-container">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your name">
+              </div>
+    
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+    
+              <div class="mb-3">
+                <label for="pigeonNumber" class="form-label">Pigeon Number</label>
+                <input type="tel" class="form-control" id="pigeonNumber" placeholder="Pigeon number">
+              </div>
+    
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+    
+          <!-- Right Column (Image) -->
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="../assets/img/pigeon.jpg" alt="Pigeon" style= "width:500px">
+          </div>
+        </div>
+      </div>
+    
+      <!-- Bootstrap JS & Popper.js (Optional if you need Bootstrap JS components) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
 
 
-<div>
-    <img src="../assets/img/pigeon.jpg" alt="pigeon">
-</div>
-</div>
+</html>
+

@@ -43,5 +43,6 @@ Either open HTML file to see the website or install Live Server extention.
 - 360-Degree Photos and Videos
 
 ## to do:
-- find out why font is not working
 - footer icons not visible
+- hidden gems styling
+- hidden gems information

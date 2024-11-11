@@ -1,6 +1,6 @@
-/* body {
+body {
     font-family: 'MedievalSharp', sans-serif;
-} */
+}
 
 .nav-main{   
 display: flex;
@@ -48,4 +48,57 @@ a{
 #all-footer{
     background-color: rgba(49,81,30,80%) ;
     height: 200px;
+}
+.carousel{
+    height: 600px;
+    overflow:hidden;
+    position: relative;
+    }
+    .carousel-inner .carousel-item{
+        height: 100%;  
+       position:relative;
+    
+    }
+    .carousel-item img {
+        height: 100%;  
+        width: 100%;
+        object-fit: cover;  /* Ensure the image covers the area without distortion */
+    }
+    
+   
+    .carousel-item .carousel-caption {
+        position: absolute; /* Make the caption absolutely positioned */
+       bottom: 350px;
+        left: 50%;
+        transform: translateX(-50%);  /* Center caption horizontally */
+        background-color: rgba(123, 104, 87, 0.67); /* Semi-transparent background */
+        color: white;
+        font-family: 'MedievalSharp', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 15 20px;
+        z-index: 1;  /* Make sure the caption stays on top of the image */
+    }
+
+    .carousel-caption h5{
+        font-family: 'MedievalSharp', sans-serif;
+    font-size: 30px;
+    }
+    
+    .hidden-gems-text{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .hidden-gems-box{
+        margin-bottom: 40px;
+    }
+
+    .card{
+    border: 2px solid rgba(123, 104, 87, 0.67) !important;
+    border-radius: 20px !important;
+
+    }
+.card-img-top{
+    border-radius: 20px  20px 0px 0px !important;
+height: 300px;
 }
