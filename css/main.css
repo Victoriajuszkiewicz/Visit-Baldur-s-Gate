@@ -2,23 +2,23 @@
     font-family: 'MedievalSharp', sans-serif;
 } */
 
-#nav-main{
+.nav-main{
     background-color: rgba(49,81,30,80%) ;
     justify-content: space-between;
     align-items: center;
     display: flex;
     padding: 10px 30px 10px 30px;
 }
-#nav-logo{
+.nav-logo{
     width:150px;
 }
-#nav-list{
+.nav-list{
     margin-bottom:0px;
     list-style-type:none;
     padding:0px;
     display: flex;
 }
-#nav-list .nav-item {
+.nav-list .nav-item {
     margin-left:20px;
     font-size:16px;
     font-weight:500;
