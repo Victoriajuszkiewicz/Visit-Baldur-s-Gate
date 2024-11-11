@@ -8,6 +8,7 @@ display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px 10px 30px;
+
 }
 .nav-logo{
     max-width: 150px; 
@@ -44,10 +45,6 @@ display: flex;
 }
 a{
     text-decoration: none !important; 
-}
-#all-footer{
-    background-color: rgba(49,81,30,80%) ;
-    height: 200px;
 }
 .carousel{
     height: 600px;
@@ -87,7 +84,8 @@ a{
     
     .hidden-gems-text{
         padding-top: 50px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
+        font-family: 'MedievalSharp', sans-serif;
     }
     .hidden-gems-box{
         margin-bottom: 40px;
@@ -96,9 +94,14 @@ a{
     .card{
     border: 2px solid rgba(123, 104, 87, 0.67) !important;
     border-radius: 20px !important;
+    font-family: 'MedievalSharp', sans-serif;
 
     }
 .card-img-top{
     border-radius: 20px  20px 0px 0px !important;
 height: 300px;
+}
+
+h5{
+    font-weight:800 !important;
 }
