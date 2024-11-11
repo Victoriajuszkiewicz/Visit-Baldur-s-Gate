@@ -41,3 +41,8 @@ Either open HTML file to see the website or install Live Server extention.
 - Local Event Calendar
 - Traveler Reviews and Ratings
 - 360-Degree Photos and Videos
+
+## to do:
+- find out why font is not working
+- footer icons not visible
+- nav bar styling + functionality 
