@@ -1,0 +1,13 @@
+.form-button{
+    width:100%;
+    background-color: #C59E60;
+    border:  none;
+    font-family: 'MedievalSharp', sans-serif;
+}
+form{
+    font-family: 'MedievalSharp', sans-serif;
+}
+.form-text{
+    font-family: 'MedievalSharp', sans-serif;
+    color: black;
+}
