@@ -13,14 +13,103 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-
+<!-- STYLE -->
+<link rel="stylesheet" href="../css/hiddenGems.css">
 </head>
 <body>
     <div id="nav-container"></div>
-    <h1>hidden gems</h1>
+    <div class="hidden-gems-page">
+        <div class="container">
+            <h1 class="gems-main-title">Hidden gems</h1>
+            <p>Click the image to discover more</p>
+<div class="row">
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/lowlantern.webp" alt="Gem 1" id="image1">
+        </div>
+        <div class="col-md-8 gem-text" id="text1">
+            <h3>Low Latern</h3>
+            <p>Low Lantern was a converted three-mast ship, 
+                the Low Lantern, used as a festhall, tavern, and gambling house 
+                in Baldur's Gate. It was often used as a place for covert meetings. The Low Lantern offered drinks, gambling, and rooms to rent. Courtesans also offered their services there.               The drinks served at the Low Lantern were said to be some of the most expensive on the Sword Coast.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/bas-gate.webp" alt="Gem 2" id="image2">
+        </div>
+        <div class="col-md-8 gem-text" id="text2">
+            <h3>Basilisk Gate</h3>
+            <p>The Basilisk Gate was a gate and local landmark in Baldur's Gate, situated in the outer city wall, that separated the Lower City district of Eastway from the Outer City district of Stonyeyes.
+                The gate acted as the eastern passageway in and out of the city along the Coast Way, which passed through the Outer City and eventually connected to the nation of Elturgard to the east, and the Lands of Intrigue to the south.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/tower.webp" alt="Gem 3" id="image3">
+        </div>
+        <div class="col-md-8 gem-text" id="text3">
+            <h3>Ramazith's tower</h3>
+            <p>Ramazith's tower was a notable landmark in the Sword Coast city of Baldur's Gate. The mage's tower was originally built in the 14th century DR by the renowned sage and zoologist, Ramazith Flamesinger.After the sudden disappearance of Ramazith, a mage named Lorroakan later obtained ownership of the tower in the late 15th century DR.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/beach.jpg" alt="Gem 4" id="image4">
+        </div>
+        <div class="col-md-8 gem-text" id="text4">
+            <h3>Western Beach</h3>
+            <p>Nestled in the heart of Rivington, the Western Beach is one of Baldur's Gate most serene and enigmatic locations. Although largely unknown to most travelers, it offers a rare respite from the hustle and bustle of the city. This quiet coastal hideaway, located just off the beaten path, is a peaceful spot often overlooked by adventurers and city-dwellers alike.</p>
+        </div>
+    </div>
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/caress.jpg" alt="Gem 5" id="image5">
+        </div>
+        <div class="col-md-8 gem-text" id="text5">
+            <h3>Sharess' Caress</h3>
+            <p>Named after the goddess of festhalls, Sharess' Caress offers a world of sensual delights, where you can encounter fascinating characters, explore luxurious themed rooms like the Nymph’s Grotto and Devil’s Den, and uncover secrets that may lead you to both pleasure... and peril. Whether you're seeking rest or revelry, Sharess’ Caress has something to satisfy every desire. </p>
+        </div>
+    </div>
+    
+    <div class="col-md-4 gem-item">
+        <div class="col-md-4">
+            <img class="gem-image" src="../assets/img/fire.png" alt="Gem 6" id="image6">
+        </div>
+        <div class="col-md-8 gem-text" id="text6">
+            <h3>Felogyr's Fireworks</h3>
+            <p>Felogyr's Fireworks is a Location within the Lower City of Baldur's Gate . It is located nearby the Heapside Strand Waypoint. The building is three-storied and has a basement, which has its own double doors in the southern side of the shop. Only the first floor of the shop is publicly accessible. The way to the second floor is barred off with the locked Reinforced Metal Door and an armed.</p>
+        </div>
+    </div>
+</div>
+
+        </div>
+       
+
+    </div>
+    <div class="container">
+        <h3 class="map-title">Try our interactive map</h3>
+        <p class="map-text">Explore the city of Baldur’s Gate like never before with our interactive map, designed to guide you through its most iconic landmarks, hidden secrets, and mystical locations. Simply hover over the map to uncover detailed descriptions, lore, and nearby attractions. </p>
+        <iframe src="https://mapgenie.io/baldurs-gate-3/maps/baldurs-gate?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
+    </div>
+    
 
     <div id="footer-container"></div>
 <script src="../js/main.js"></script> 
+<script>
+    // Function to toggle visibility of text when an image is clicked
+    document.querySelectorAll('.gem-image').forEach(image => {
+        image.addEventListener('click', function() {
+            const targetText = document.querySelector(`#text${image.id.substring(5)}`);
+            targetText.classList.toggle('show');
+        });
+    });
+</script>
 </body>
 
 
