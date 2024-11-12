@@ -13,6 +13,8 @@ The user interface is thematically crafted that mirrors game's enviroment.
 - Vanilla JavaScript
 - Bootstrap 5
 - Bootstrap icons
+- Animations: https://michalsnik.github.io/aos/
+- Map:https://mapgenie.io/baldurs-gate-3/maps/baldurs-gate 
 
 ## Installation Instructions
 Copy repo to your terminal.

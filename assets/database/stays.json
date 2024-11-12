@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Elfsong Tavern",
+      "location": "Lower city",
+      "price": 200,
+      "image": "https://bg3.wiki/w/images/d/d2/Elfsong_Tavern_Street_View.jpg",
+      "stars": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Blusing Mermaid",
+      "location": "Lower City",
+      "price": 3,
+      "image": "https://bg3.wiki/w/images/a/a4/Blushing_Mermaid_Outside.jpg",
+      "stars": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Highberry's Home",
+      "location": "Lower City",
+      "price": 50,
+      "image": "https://bg3.wiki/w/images/5/54/Highberry%27s_Home.jpg",
+      "stars": 4
+    },
+    {
+        "id": 4,
+        "name": "Purple Wyrm Inn",
+        "location": "Lower City",
+        "price": 50,
+        "image": "https://static.wikia.nocookie.net/forgottenrealms/images/d/db/Purple_Wyrm_Inn_and_Tavern.png/revision/latest/scale-to-width-down/1000?cb=20240409195058",
+        "stars": 4.1
+      },
+      {
+        "id": 5,
+        "name": "Arfur's Mansion",
+        "location": "Rivington",
+        "price": 100,
+        "image": "https://bg3.wiki/w/images/c/c0/Arfur%27s_Mansion.jpg",
+        "stars": 4.6
+      },
+      {
+        "id": 6,
+        "name": "Open Hand Temple",
+        "location": "Rivington",
+        "price": 150,
+        "image": "https://bg3.wiki/w/images/0/03/Open_Hand_Temple_Front.jpg",
+        "stars": 4.7
+      }
+  ]
+  
