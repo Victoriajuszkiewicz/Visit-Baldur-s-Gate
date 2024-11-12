@@ -1,7 +1,7 @@
 body {
     font-family: 'MedievalSharp', sans-serif;
 }
-
+/* Nav styling */
 .nav-main{   
 display: flex;
     background-color: rgba(49,81,30,80%) ;
@@ -43,9 +43,11 @@ display: flex;
     color: inherit; 
     display: block; 
 }
+/* END OF NAV STYLING */
 a{
     text-decoration: none !important; 
 }
+/* CAROUSEL STYLE */
 .carousel{
     height: 600px;
     overflow:hidden;
@@ -91,13 +93,13 @@ a{
         margin-bottom: 40px;
     }
 
-    .card{
+    .card-hidden{
     border: 2px solid rgba(123, 104, 87, 0.67) !important;
     border-radius: 20px !important;
     font-family: 'MedievalSharp', sans-serif;
 
     }
-.card-img-top{
+.card-image{
     border-radius: 20px  20px 0px 0px !important;
 height: 300px;
 }
