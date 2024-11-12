@@ -1,13 +1,19 @@
-.form-button {
+button.btn-primary.form-button {
+    background-color: #C59E60 !important;
+    border: none;
     width:100%;
-    background-color: #C59E60;
-    border:  none;
-    font-family: 'MedievalSharp', sans-serif;
+}
+
+button.btn-primary.form-button:hover {
+border: solid #5a744b;
 }
 form{
     font-family: 'MedievalSharp', sans-serif;
 }
 .form-text{
     font-family: 'MedievalSharp', sans-serif;
-    color: black;
+    color: black !important;
+}
+.main-form-container{
+min-height:500px;
 }

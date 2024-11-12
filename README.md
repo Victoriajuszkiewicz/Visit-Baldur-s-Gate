@@ -43,6 +43,11 @@ Either open HTML file to see the website or install Live Server extention.
 - 360-Degree Photos and Videos
 
 ## to do:
-- footer icons not visible
+- contact us grey not black why?
+- contact us button changed colour itself hello??
+- footer styling
+- about us section finish (add cards and animation)
+- hidden gems start (cards + map)
 - hidden gems styling
-- hidden gems information
+- read more function?? animation maybe?
+- stays cards with price 
