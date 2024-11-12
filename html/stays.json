@@ -28,7 +28,7 @@
         "name": "Purple Wyrm Inn",
         "location": "Lower City",
         "price": 50,
-        "image": "https://static.wikia.nocookie.net/forgottenrealms/images/d/db/Purple_Wyrm_Inn_and_Tavern.png/revision/latest/scale-to-width-down/1000?cb=20240409195058",
+        "image": "../assets/img/wyrminn.webp",
         "stars": 4.1
       },
       {
@@ -46,6 +46,22 @@
         "price": 150,
         "image": "https://bg3.wiki/w/images/0/03/Open_Hand_Temple_Front.jpg",
         "stars": 4.7
+      },
+      {
+        "id": 7,
+        "name": "Requisitioned Barn",
+        "location": "Rivington",
+        "price": 10,
+        "image": "https://bg3.wiki/w/images/f/f8/Requisitioned_Barn.jpg",
+        "stars": 2.0
+      },
+      {
+        "id": 7,
+        "name": "The High Hall Inn",
+        "location": "Upper City",
+        "price": 1000,
+        "image": "../assets/img/uppercity.webp",
+        "stars": 5.0
       }
   ]
   
