@@ -1,0 +1,62 @@
+[
+{
+    "id":1,
+    "title":"Baalor Ale",
+"price": 149,
+"img":"https://bg3.wiki/w/images/1/1c/ALCH_Balor_Ale_Faded.png",
+"amount_left":1
+},
+{
+    "id":2,
+    "title":"Marsember Ice Wine",
+"price": 155,
+"img":"https://bg3.wiki/w/images/3/36/ALCH_Marsember_Ice_Wine_Faded.png",
+"amount_left":1
+},
+{
+    "id":3,
+    "title":"Gold Pendant",
+"price": 200,
+"img":"https://bg3.wiki/w/images/1/19/Amulet_Necklace_A_Gold_A_Faded.png",
+"amount_left":1
+},
+{
+    "id":4,
+    "title":"Vampiric Dagger",
+"price": 1000,
+"img":"https://bg3.wiki/w/images/a/a8/Vampiric_Dagger_Faded.webp",
+"amount_left":1
+},
+{
+    "id":5,
+    "title":"Elixir of Halfling Luck",
+"price": 20,
+"img":"https://bg3.wiki/w/images/3/39/Bottle_A_Icon.png",
+"amount_left":1
+},
+{
+    "id":6,
+    "title":"Underwear/Dragonborn",
+"price": 250,
+"img":"https://bg3.wiki/w/images/1/15/Underwear_Dragonborn_A_Icon.png",
+"img2": "https://bg3.wiki/w/images/5/5c/Underwear_Dragonborn_A_3.png",
+"img3":"https://bg3.wiki/w/images/6/67/Underwear_Dragonborn_A_1.png",
+"amount_left":1
+},
+{
+    "id":7,
+    "title":"Flora of the Dalelands",
+"price": 200,
+"img":"https://bg3.wiki/w/images/2/24/Book_Tome_T_Image.png",
+"amount_left":1
+},
+{
+    "id":8,
+    "title":"Angelic Plume Helmet",
+"price": 500,
+"img":"https://bg3.wiki/w/images/a/a2/Item_ARM_Helmet_Leather_E.png",
+"amount_left":1
+}
+
+
+]

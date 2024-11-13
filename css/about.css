@@ -12,9 +12,9 @@
     font-style: italic;
     text-align: center;
 }
-.card-image{
-   height: 450px;
-    object-fit: cover; 
+.card-img{
+height: 500px;
+object-fit: cover; 
 }
 .our-team-text{
     padding-bottom:30px;
