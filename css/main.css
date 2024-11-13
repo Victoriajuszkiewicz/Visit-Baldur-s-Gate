@@ -94,6 +94,7 @@ a{
     }
     .hidden-gems-box{
         margin-bottom: 40px;
+        min-height: 700px;
     }
 /* CARDS FOR HIDDEN GEMS */
     .card-hidden{
