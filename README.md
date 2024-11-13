@@ -45,11 +45,8 @@ Either open HTML file to see the website or install Live Server extention.
 - 360-Degree Photos and Videos
 
 ## to do:
-- contact us grey not black why?
-- contact us button changed colour itself hello??
 - footer styling
-- about us section finish (add cards and animation)
-- hidden gems start (cards + map)
-- hidden gems styling
-- read more function?? animation maybe?
-- stays cards with price 
+- contact us function to send form handle form 
+- total basket styling , functions
+- about styling
+- responsivness

@@ -14,9 +14,10 @@ card.innerHTML=`
 <div class="card-body">
 <h5 class="card-title">${item.title}</h5>
 <p class=item-price >${item.price} gold</p>
-     <i class="bi bi-cart" data-item='${JSON.stringify(item)}' onClick="addToCart(this)"></i>
+<i class="bi bi-cart cart-icon" data-item='${JSON.stringify(item)}' onClick="addToCart(this)"></i>
 </div>
 `;
+//CODE I'M proud of 
 //passing the whole item object but there was an error!
 //JSON.stringify(item) converts the object into a JSON string, but this string can contain quotes (" or ') that interfere with the surrounding HTML/JavaScript syntax. So, when the browser tries to parse this inline JavaScript code, it encounters an error because of the conflicting quotes.
 shopItems.appendChild(card);

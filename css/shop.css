@@ -3,7 +3,7 @@
   z-index: 2;
 width:40%;
 position: absolute;
-top: 30%;
+top: 50%;
 left: 30%;
 align-items: center;
 text-align: center;
@@ -31,4 +31,11 @@ gap:20px;
 display: flex;
 flex-wrap: wrap;  /* Allow the cards to wrap to the next line */
 justify-content: space-around; 
+}
+.cart-icon{
+font-size: 30px;
+}
+.cart-icon:hover{
+  color: green;
+
 }
