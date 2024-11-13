@@ -16,3 +16,19 @@ text-align: center;
     overflow: hidden;
     z-index: -1;
 }
+.item-price{
+  color: green;
+}
+.shop-item-card{
+
+ max-width: 250px;
+ width: 100%;
+}
+#shop-cards-main{
+margin-top: 50px ;
+margin-bottom: 50px;
+gap:20px;
+display: flex;
+flex-wrap: wrap;  /* Allow the cards to wrap to the next line */
+justify-content: space-around; 
+}
