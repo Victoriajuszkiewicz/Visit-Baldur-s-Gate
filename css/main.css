@@ -31,14 +31,17 @@ display: flex;
 }
 .nav-item{
     margin-left: 20px; 
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #C59E60;
     font-family: 'MedievalSharp', sans-serif;
     white-space: nowrap; 
     display: flex; 
 }
+.nav-item:hover{
+color: bisque;
 
+}
 .nav-item a {
     color: inherit; 
     display: block; 
@@ -92,7 +95,7 @@ a{
     .hidden-gems-box{
         margin-bottom: 40px;
     }
-
+/* CARDS FOR HIDDEN GEMS */
     .card-hidden{
     border: 2px solid rgba(123, 104, 87, 0.67) !important;
     border-radius: 20px !important;
@@ -106,4 +109,15 @@ height: 300px;
 
 h5{
     font-weight:800 !important;
+}
+.hidden-gems-title-index{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #5A744B;
+    margin: 0 ;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.hidden-gems-title-index:hover{
+    box-shadow: inset 250px 0 0 0 #2B1105;
+    color: white;
 }
