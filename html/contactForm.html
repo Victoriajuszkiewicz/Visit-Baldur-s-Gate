@@ -49,15 +49,14 @@
         <div class="row">
           <!-- Left Column (Text and Form) -->
           <div class="col-md-6 form-text">
+<div data-aos="fade-right"  >
+  <h2 >Contact Us</h2>
+<p>Send a pigeon with your request. Please be aware that it takes up to 4 working days for us to receive your pigeon.</p>
 
-         
-              <h2 >Contact Us</h2>
+</div>
 
-            
-            <p>Send a pigeon with your request. Please be aware that it takes up to 4 working days for us to receive your pigeon.</p>
-            
             <!-- Form -->
-            <form class="contact-form-container" onsubmit="handleForm(event)">
+            <form class="contact-form-container" onsubmit="handleForm(event)" data-aos="fade-left" >
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Your name">
@@ -89,7 +88,11 @@
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+    <!-- animation -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
        <!-- SCRIPTS JS -->
        <script src="../js/main.js"></script> 
        <script src="../js/contact.js"></script>
