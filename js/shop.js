@@ -1,5 +1,6 @@
 const cart=[];
 
+
 fetch("shop.json")
 .then(response => response.json())
 .then( data =>{
@@ -35,7 +36,8 @@ console.log("button clicked", item);
 //add item to the cart 
 //keep data saved in variable
 cart.push(item);
-
+ // Save cart to localStorage
+ localStorage.setItem('cart', JSON.stringify(cart));
 
 // alert pop up - from bootstrap
 const alert= document.getElementById('cart-alert');
