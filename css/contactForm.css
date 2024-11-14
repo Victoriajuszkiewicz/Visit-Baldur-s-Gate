@@ -17,3 +17,6 @@ form{
 .main-form-container{
 min-height:500px;
 }
+.box {
+    display: block;
+  }

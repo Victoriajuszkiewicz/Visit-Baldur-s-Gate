@@ -3,3 +3,7 @@ function handleForm(event){
 
     console.log("button clicked here!!!")
 }
+
+gsap.to(".box", { 
+    x: 200,
+  });
