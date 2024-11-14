@@ -17,31 +17,42 @@
 <link rel="stylesheet" href="../css/navFooter.css">
 <!-- animation -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+<!-- text animation -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 </head>
 <body>
     <div id="nav-container"></div>
    
         <div class="our-story-main">
-             <div class="container">
-
-                <div>
-                     <h2>Our story</h2>
+             <div class="container box-text-img">
+<div class="row elements-in-our-story">
+    <div class="col-lg-6">
+        <div  data-aos="fade-right" class="our-story-text">
+            <h2 id="title-our-story">Our story</h2>
 <p>
-Welcome to Visit Baldur's Gate, where epic journeys and unforgettable experiences await!
-
+Welcome to Visit Baldur's Gate, where epic journeys and <b>unforgettable</b> experiences await!
+<br>
+<br>
 We are a passionate team of adventure enthusiast.
-Whether you're a die-hard fan of fantasy tales or a newcomer to the magical world of Faerûn, we promise to deliver an adventure that will stay with you long after your journey ends.
-
-
-Founded by a group of avid travelers Jaheira, Druid Klarrvox and Astarion!
-Our company began with the simple idea of offering a chance to walk the streets, explore the landmarks, and experience the magic of this iconic city and its surrounding areas.
+Whether you're a die-hard fan of fantasy tales or a newcomer to the <b>magical world</b> of Faerûn, we promise to deliver an adventure that will stay with you long after your journey ends.
+<br>
+<br>
+Founded by a group of avid travelers <i>Jaheira</i>, <i>Druid Klarrvox</i> and <i>Astarion</i>!
+Our company began with the simple idea of offering a chance to walk the streets, explore the landmarks, and experience the magic of this <b>iconic city</b> and its surrounding areas.
 </p> 
-                </div>
-       
-<div>
-        <img src="../assets/img/thecity.webp" alt="baldurs gate city landscape" width="700px"/>
-    </div>
+       </div>
+    </div> 
+
+    <div class="col-lg-6">
+        <div data-aos="fade-left">
+            <img src="../assets/img/thecity.webp" alt="baldurs gate city landscape" width="700px"/>
+        </div>
+    </div> 
+
+</div>
 </div>
 
     </div>
@@ -122,15 +133,23 @@ Our company began with the simple idea of offering a chance to walk the streets,
 
       
     </div>
+    <div class="bg-story-box">
 <div class="container">
-    <div>
-        <h2>Baldur's Gate story</h2>
+    <div class="bg-story-main">
+        <h2 id="title-our-story">Baldur's Gate story</h2>
         <p>
-            Baldur’s Gate, known as the “Gateway to the Realms,” was founded in the year of 1356 DR (Dale Reckoning) by the powerful Bhaalspawn Bhaal, the Lord of Murder. It was built at the mouth of the Chionthar River, on the western coast of the Sword Coast, in what is now known as the Western Heartlands.In its early years, Baldur’s Gate was a small fishing village, but as more settlers arrived, it quickly grew into a thriving trading port. The city’s founders saw its potential as a major hub for trade and commerce, and as a result, they began to expand the city’s walls and fortifications. This attracted even more settlers and traders, and the city soon became one of the largest and most prosperous cities in the Sword Coast.
+            Baldur’s Gate, known as the <b>“Gateway to the Realms”</b>,was founded in the year of 1356 DR (Dale Reckoning)
+            It was founded by the powerful Bhaalspawn Bhaal, the Lord of Murder.
+            <br>
+            <br>
+            It was built at the mouth of the <b>Chionthar River</b>, on the western coast of the <b>Sword Coast</b>, in what is now known as the Western Heartlands.In its early years, Baldur’s Gate was a <i>small fishing village</i>, but as more settlers arrived, it quickly grew into a thriving trading port.
+            <br>
+            <br>
+             The city’s founders saw its potential as a major hub for <b>trade and commerce</b>, and as a result, they began to expand the city’s walls and fortifications. This attracted even more settlers and traders, and the city soon became one of the largest and most prosperous cities in the Sword Coast.
         </p>
         
  <p>
-    Districts of Baldurs Gate
+   <b>Districts of Baldurs Gate:</b> 
  </p> 
         <ul>
           
@@ -152,15 +171,22 @@ Our company began with the simple idea of offering a chance to walk the streets,
         </ul>
     </div>
     <div>
-    <p s>Watch a teaser of a city</p>
+    <p><b>Watch a teaser of a city</b></p>
     <iframe width="960" height="515" src="https://www.youtube.com/embed/4oqg16CG20k?si=MvDqStqEpoeQ8OPD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
     </div>
-
+</div>
 
     <div id="footer-container"></div>
+    <!-- JS  -->
 <script src="../js/main.js"></script> 
+<!-- animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 </body>
-
-
     </html>

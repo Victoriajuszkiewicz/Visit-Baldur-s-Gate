@@ -9,3 +9,6 @@
 .stays-body-card{
     margin-bottom:20px;
 }
+.the-whole-card:hover{
+    transform: scale(1.1);
+}

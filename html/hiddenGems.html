@@ -15,16 +15,22 @@
 <!-- STYLE -->
 <link rel="stylesheet" href="../css/hiddenGems.css">
 <link rel="stylesheet" href="../css/navFooter.css">
+<!-- animations css -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="nav-container"></div>
     <div class="hidden-gems-page">
         <div class="container">
+
+            <div data-aos="zoom-in">
             <h1 class="gems-main-title">Hidden gems</h1>
-            <p>Click the image to discover more</p>
+            <p>Click the image to discover more.</p>
+            </div>
+          
 <div class="row">
     <div class="col-md-4 gem-item">
-        <div class="col-md-4">
+        <div class="col-md-4" >
             <img class="gem-image" src="../assets/img/lowlantern.webp" alt="Gem 1" id="image1">
         </div>
         <div class="col-md-8 gem-text" id="text1">
@@ -92,9 +98,12 @@
        
 
     </div>
-    <div class="container">
-        <h3 class="map-title">Try our interactive map</h3>
-        <p class="map-text">Explore the city of Baldur’s Gate like never before with our interactive map, designed to guide you through its most iconic landmarks, hidden secrets, and mystical locations. Simply hover over the map to uncover detailed descriptions, lore, and nearby attractions. </p>
+    <div class="container" >
+        <div data-aos="zoom-in">
+            <h3 class="map-title">Try our interactive map</h3>
+            <p class="map-text">Explore the city of Baldur’s Gate like never before with our interactive map, designed to guide you through its most iconic landmarks, hidden secrets, and mystical locations. Simply hover over the map to uncover detailed descriptions, lore, and nearby attractions. </p>
+        </div>
+       
         <iframe src="https://mapgenie.io/baldurs-gate-3/maps/baldurs-gate?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
     </div>
     
@@ -109,6 +118,12 @@
             targetText.classList.toggle('show');
         });
     });
+</script>
+
+<!-- animations -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 </body>
 
