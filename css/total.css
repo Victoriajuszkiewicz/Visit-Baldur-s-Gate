@@ -1,0 +1,9 @@
+.card-details-box{
+    background-color: rgb(197, 158, 96, 71%);
+padding:40px;
+border-radius: 20px;
+max-height: 800px;
+}
+.checkout-button{
+    width: 100%;
+}

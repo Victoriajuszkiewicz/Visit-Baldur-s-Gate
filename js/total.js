@@ -37,3 +37,24 @@ const itemsInCart= document.getElementById("items-in-cart-message");
 // Call the function to display cart items
 window.addEventListener("DOMContentLoaded", getItems);
 
+function handleFormSubmit(event){
+    event.preventDefault()
+    console.log("form submitted")
+    //receive info
+    const form=event.target;
+const cardInfo={
+    nameOnCard: form.querySelector("#card-name").value,
+    cardNumber: form.querySelector("#card-number").value,
+    expirationDate: form.querySelector("#exp-date").value,
+    cvv: form.querySelector("#cvv-num").value
+}
+console.log("form submitted2", cardInfo)
+    //show alert
+  alert("Card info submitted sucessfully!")
+    //clean the form and cart!!!
+    form.reset();
+    //needs to refresh page to remove items why??
+    localStorage.removeItem("cart");
+
+}
+
