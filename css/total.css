@@ -3,7 +3,21 @@
 padding:40px;
 border-radius: 20px;
 max-height: 800px;
+margin-top:30px !important;
 }
 .checkout-button{
     width: 100%;
+}
+.main-box-for-total{
+    min-height: 700px;
+}
+.continue-shopping-btn{
+    font-size: 20px;
+color: black;
+font-family: 'MedievalSharp', sans-serif;
+font-weight: 700;
+text-decoration: none;
+}
+.continue-shopping-btn:hover{
+    color:#31511E ;
 }
