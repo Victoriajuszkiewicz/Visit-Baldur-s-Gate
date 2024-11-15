@@ -6,8 +6,10 @@ function getItems(){
 const cartContainer = document.getElementById("cart-items-container");
 const cartMessage= document.getElementById("cart-message");
 const itemsInCart= document.getElementById("items-in-cart-message");
-    if (cart.length ===0){
-        cartMessage.textContent= "Your cart is empty"
+    
+if (cart.length ===0){
+        cartMessage.textContent= "Your cart is empty!"
+
         cartContainer.innerHTML = ''; 
     }
     else{
@@ -38,6 +40,7 @@ const itemsInCart= document.getElementById("items-in-cart-message");
 window.addEventListener("DOMContentLoaded", getItems);
 
 function handleFormSubmit(event){
+    //prevents refresh
     event.preventDefault()
     console.log("form submitted")
     //receive info
@@ -50,11 +53,17 @@ const cardInfo={
 }
 console.log("form submitted2", cardInfo)
     //show alert
-  alert("Card info submitted sucessfully!")
+const alert= document.getElementById("alert-box-total")
+alert.classList.remove("d-none")
+
+setTimeout(() => {
+    alert.classList.add('d-none');
+    //reload the page needed to show cart empty
+    location.reload()
+}, 2000); 
     //clean the form and cart!!!
     form.reset();
-    //needs to refresh page to remove items why??
+    //CLEAR CART
     localStorage.removeItem("cart");
-
 }
 
