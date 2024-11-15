@@ -20,7 +20,8 @@ if (cart.length ===0){
         itemDiv.classList.add("cart-item")
         itemDiv.innerHTML = `
         <h5>${item.title}</h5>
-        <p>${item.price} gold</p>
+        <i class="bi bi-trash3"></i>
+        <p class="product-price-total">${item.price} gold</p>
         <img src="${item.img}" alt="${item.title}" class="cart-item-img" />
     `;
 

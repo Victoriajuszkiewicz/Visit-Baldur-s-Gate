@@ -2,7 +2,7 @@
     background-color: rgb(197, 158, 96, 71%);
 padding:40px;
 border-radius: 20px;
-max-height: 800px;
+max-height: 650px;
 margin-top:30px !important;
 }
 .checkout-button{
@@ -10,6 +10,8 @@ margin-top:30px !important;
 }
 .main-box-for-total{
     min-height: 700px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .continue-shopping-btn{
     font-size: 20px;
@@ -20,4 +22,13 @@ text-decoration: none;
 }
 .continue-shopping-btn:hover{
     color:#31511E ;
+}
+#payment-img{
+    width: 400px;
+}
+.bi-trash3{
+    color: red;
+}
+.product-price-total{
+    color: green;
 }

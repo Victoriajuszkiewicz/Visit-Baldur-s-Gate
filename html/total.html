@@ -39,27 +39,28 @@
   </div>
 <div class="col-lg-6 card-details-box">
 <h5>Card details</h5>
-<form onsubmit="handleFormSubmit(event)">
+<img src="../assets/img/payment.png"alt="payment options visa gold" id="payment-img" />
+<hr>
+<form onsubmit="handleFormSubmit(event)" >
   <div  class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Name on card</label>
     <input type="text" class="form-control" id="card-name" aria-describedby="card-name" required="required">
   </div>
   <div  class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Card number</label>
-    <input type="text" class="form-control" id="card-number" aria-describedby="card-number" required="required">
+    <input type="text" class="form-control" id="card-number" maxlength="12" aria-describedby="card-number" required="required">
   </div>
   <div  class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Expiration date</label>
-    <input type="date" class="form-control" id="exp-date" aria-describedby="exp-date" required="required">
+    <input type="text" class="form-control" id="exp-date" aria-describedby="exp-date" required="required"  maxlength='5' placeholder="MM/YY">
   </div>
 
   <div  class="mb-3">
     <label for="exampleInputEmail1" class="form-label">CVV</label>
-    <input type="text" class="form-control" id="cvv-num" aria-describedby="cvv-num" required="required">
+    <input type="text" class="form-control" id="cvv-num"maxlength="3"  aria-describedby="cvv-num" required="required">
   </div>
-  <hr>
-  <p>Subtotal ${}</p>
-  <p>Shipping ${}</p>
+
+
   <button type="submit" class="btn btn-primary checkout-button">Checkout <i class="bi bi-arrow-right"></i></button>
 </form>
 </div>

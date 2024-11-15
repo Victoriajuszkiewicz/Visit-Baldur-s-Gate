@@ -45,6 +45,10 @@ a{
         font-family: 'MedievalSharp', sans-serif;
     font-size: 30px;
     }
+    #carousel-main-title{
+        color: #C59E60;
+        text-shadow: 2px 2px #2B1105;
+    }
     
     .hidden-gems-text{
         padding-top: 50px;
