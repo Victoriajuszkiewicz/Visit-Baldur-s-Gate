@@ -20,7 +20,7 @@ if (cart.length ===0){
         itemDiv.classList.add("cart-item")
         itemDiv.innerHTML = `
         <h5>${item.title}</h5>
-        <i class="bi bi-trash3"></i>
+        <i class="bi bi-trash3" onClick="deleteItem(${item.id})"></i>
         <p class="product-price-total">${item.price} gold</p>
         <img src="${item.img}" alt="${item.title}" class="cart-item-img" />
     `;
@@ -28,7 +28,7 @@ if (cart.length ===0){
     // Append the item div to the container
     cartContainer.appendChild(itemDiv);
 
-    itemsInCart.textContent = `You have ${cart.length} item(s) in your cart.`;
+    // itemsInCart.textContent = `You have ${cart.length} item(s) in your cart.`;
     }
    )
    .catch(error => {
@@ -67,4 +67,16 @@ setTimeout(() => {
     //CLEAR CART
     localStorage.removeItem("cart");
 }
+function deleteItem(itemId) {
+    // Get the cart from localStorage
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
+    // Filter out the item to delete based on its id
+    cart = cart.filter(item => item.id !== itemId);
+
+    // Save the updated cart back to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Re-render the cart
+    getItems();
+}
