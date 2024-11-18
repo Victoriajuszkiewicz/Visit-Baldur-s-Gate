@@ -18,12 +18,9 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
 
-
 <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->    
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
-    
-    
     
 <!-- Bootstrap CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -37,40 +34,44 @@
 <link rel="stylesheet" href="../css/contactForm.css">
 <link rel="stylesheet" href="../css/navFooter.css">
 
- 
 </head>
 <body>
 
 
 
 </div>
+<div id="alert-box" class="alert alert-success d-none" role="alert">
+  Your contact form has been succesfully submitted!
+  </div>
     <div class="container my-5 main-form-container">
-        <!-- Two-column Layout -->
+      <!-- alert -->
+
+      <!-- Two-column Layout -->
         <div class="row">
           <!-- Left Column (Text and Form) -->
           <div class="col-md-6 form-text">
-<div data-aos="fade-right"  >
-  <h2 >Contact Us</h2>
+<div>
+  <h2>Contact Us</h2>
 <p>Send a pigeon with your request. Please be aware that it takes up to 4 working days for us to receive your pigeon.</p>
 
 </div>
 
             <!-- Form -->
-            <form class="contact-form-container" onsubmit="handleForm(event)" data-aos="fade-left" >
+            <form class="contact-form-container" onsubmit="handleForm(event)" >
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your name">
+                <input required type="text" class="form-control" id="name" placeholder="Your name">
               </div>
     
               <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
+                <label for="email" class="form-label" required >Email address</label>
                 <input type="email" class="form-control" id="email" placeholder="Your email">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
               </div>
     
               <div class="mb-3">
                 <label for="pigeonNumber" class="form-label">Pigeon Number</label>
-                <input type="tel" class="form-control" id="pigeonNumber" placeholder="Pigeon number">
+                <input required type="tel" class="form-control" id="pigeonNumber" placeholder="Pigeon number">
               </div>
     
               <button type="submit" class="btn btn-primary form-button" >SEND</button>
@@ -79,7 +80,7 @@
     
           <!-- Right Column (Image) -->
           <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img src="../assets/img/pigeon.jpg" alt="Pigeon" style= "width:500px">
+            <img src="../assets/img/pigeon.jpg" alt="Pigeon" style= "width:600px">
           </div>
         </div>
       </div>
@@ -96,8 +97,6 @@
        <!-- SCRIPTS JS -->
        <script src="../js/main.js"></script> 
        <script src="../js/contact.js"></script>
-   
-
     </body>
 
 
