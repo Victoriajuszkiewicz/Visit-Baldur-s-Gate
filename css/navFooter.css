@@ -39,7 +39,7 @@
 
     .navbar-toggler{
         color:#C59E60 ;
-      font-size: 30px;
+      font-size: 30px !important;
       margin-right:30px
     }
   

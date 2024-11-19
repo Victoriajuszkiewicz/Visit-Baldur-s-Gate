@@ -1,65 +1,61 @@
 body {
     font-family: 'MedievalSharp', sans-serif;
 }
-
 a{
     text-decoration: none !important; 
 }
 /* CAROUSEL STYLE */
 .carousel{
-    height: 600px;
-    overflow:hidden;
     position: relative;
+    height: 700px;
+    overflow:hidden;
     }
-    .carousel-inner .carousel-item{
-        height: 100%;  
-       position:relative;
-    
+    .carousel-inner {
+        height: 100%; 
+    }
+    .carousel-item {
+        position: relative;
+        height: 100%;
     }
     .carousel-item img {
-        height: 100%;  
-        width: 100%;
-        object-fit: cover;  /* Ensure the image covers the area without distortion */
+        width: 100%;  /* Ensure image fills the width of the carousel */
+        height: 100%; /* Ensure image fills the height of the carousel */
+        object-fit: cover;  /* Make sure the image covers the area without stretching */
     }
-    
-   
-    .carousel-item .carousel-caption {
-        position: absolute; /* Make the caption absolutely positioned */
-   
-        left: 50%;
-        transform: translateX(-50%);  /* Center caption horizontally */
-        background-color: rgba(123, 104, 87, 0.67); /* Semi-transparent background */
-        color: white;
-        font-family: 'MedievalSharp', sans-serif;
-        font-size: 30px;
+    .carousel-caption {
+        position: absolute;
+      
+        justify-content: center;
         text-align: center;
-   
-        z-index: 1;  /* Make sure the caption stays on top of the image */
-
-          /* Updated responsive positioning */
-    top: 65%;  /* Place it at the vertical center */
-    transform: translateX(-50%) translateY(-50%);
-    }
-
-    .carousel-caption h5{
-        font-family: 'MedievalSharp', sans-serif;
-    font-size: 30px;
-    }
-    #carousel-main-title{
-        color: #C59E60;
+        background-color: rgba(123, 104, 87, 0.67);  /* Semi-transparent background */
+        padding: 20px;
+      
         text-shadow: 2px 2px #2B1105;
-    }
+        font-family: 'MedievalSharp', sans-serif;
+        z-index: 1;
+        max-width: 80%;  /* Limit the width of the title to avoid text stretching */
     
+       
+    }
+    .big-title-carousel {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+
+/* CARDS FOR HIDDEN GEMS */
     .hidden-gems-text{
         padding-top: 50px;
         padding-bottom: 30px;
         font-family: 'MedievalSharp', sans-serif;
+        justify-content: center;  
     }
     .hidden-gems-box{
         margin-bottom: 40px;
         min-height: 700px;
+        justify-content: center;  
     }
-/* CARDS FOR HIDDEN GEMS */
+
     .card-hidden{
     border: 2px solid rgba(123, 104, 87, 0.67) !important;
     border-radius: 20px !important;
@@ -87,4 +83,60 @@ h5{
 .hidden-gems-title-index:hover{
     box-shadow: inset 250px 0 0 0 #2B1105;
     color: white;
+}
+.hidden-cards-main{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    /* gap: 20px; */
+}
+
+/* RESPOSIVNESS */
+/* mobile version */
+@media only screen and (max-width: 990px) {
+    .carousel{
+        height: 400px;
+        }
+
+        .carousel-caption {
+            bottom: 8%; 
+        }
+        .big-title-carousel{
+            font-size: 20px;
+        }
+        .card-hidden {
+            width: 100%; 
+            margin-left:60px;
+        }
+    
+}
+
+/* For screens smaller than 767px */
+@media only screen and (max-width: 700px) {
+    .carousel {
+        height: 300px; 
+    }
+
+    .carousel-caption {
+        padding: 10px;  
+    }
+    .carousel-caption {
+        bottom: 8%;
+    }
+
+    .big-title-carousel {
+        font-size: 16px;  
+    }
+}
+@media only screen and (max-width: 480px) {
+    .carousel {
+        height: 250px;  
+    }
+    .carousel-caption {
+        bottom: 15%; 
+    }
+    .big-title-carousel {
+        font-size: 10px;  
+    }
 }
