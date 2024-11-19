@@ -20,3 +20,23 @@ min-height:600px;
 .box {
     display: block;
   }
+#pigeon-image{
+ width:600px  ; 
+padding: left 30px;
+margin-left:30px
+}
+
+  @media only screen and (max-width: 990px) {
+#pigeon-image{
+    width: 400px;
+   
+    padding-left:30px
+}
+  }
+
+  @media only screen and (max-width: 770px) {
+#pigeon-image{
+    padding:20px;
+}
+
+  }
