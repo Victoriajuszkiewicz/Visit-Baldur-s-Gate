@@ -1,34 +1,41 @@
+/* first box our story */
 .our-story-main{
     background-color: #C59E60;
     height: 600px;
     display:flex;
     justify-content: center; 
     align-items: center;  
+    width:100%;
+}
+.our-story-text{
+    font-family: 'MedievalSharp', sans-serif;
+    font-size: 18px;
 }
 
+#title-our-story{
+    font-weight: 800;
+    margin-bottom:15px;
+}
+/* second box our team */
 .our-team-main{
     background-color: #31511E;
     min-height: 700px;
   padding: 30px, 0; 
 }
-.our-story-text{
-    font-family: 'MedievalSharp', sans-serif;
-}
-.underline-effect{
-
-}
-#title-our-story{
-    font-weight: 800;
-    margin-bottom:15px;
-}
+.our-team-main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }  
 .card-name{
     background-color: rgb(197, 158, 96);
     font-style: italic;
     text-align: center;
-}
+} 
 .card-img{
 height: 500px;
 object-fit: cover; 
+width: 100%;
 }
 .our-team-text{
     padding-bottom:30px;
@@ -36,20 +43,26 @@ object-fit: cover;
 color: #C59E60;
 font-family: 'MedievalSharp', sans-serif;
 font-weight: 800;
-}
+} 
+
 .card-about-text{
     color: #fff;
     font-family: 'MedievalSharp', sans-serif;
-}
+} 
 /* Flip effect ANIMATION */
-.image-flip {
+ .image-flip {
     perspective: 1000px;  /* Enables 3D space for flipping */
-}
+width:18rem;
+} 
+
 
 .mainflip {
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
+}
+#city-land-image{
+    width:700px;
 }
 
 .frontside, .backside {
@@ -61,7 +74,7 @@ font-weight: 800;
     height: 100%;
     -webkit-transition: transform 1s;
     transition: transform 1s;
-}
+} 
 
 .frontside {
     z-index: 2;  /* Keeps the front side on top initially */
@@ -83,3 +96,62 @@ font-weight: 800;
     font-family: 'MedievalSharp', sans-serif;
 
 }
+/* YOUTUBE video */
+#youtube-video{
+    width:960px;
+    height:515px;
+}
+
+@media only screen and (max-width: 1380px) {
+    #city-land-image{
+        width:500px;
+    }
+    .our-story-text{
+      font-size: 16px;
+    }
+    .frontside, .backside {
+        position:fixed;
+        
+    } 
+    .image-flip {
+        max-width: 16rem; /* Smaller width on large screens */
+    }
+}
+@media only screen and (max-width: 990px) {
+    .our-story-main{
+        height: 700px;
+
+    }
+    #title-our-story{
+        font-weight: 600;
+        margin-bottom:10px;
+        font-size: 25px;
+    }
+    .col{
+   margin:0px;
+   padding:0px;
+   gap:0px;
+   
+      }
+     
+      .image-flip {
+        max-width: 14rem; /* Even smaller width on medium screens */
+    }
+    .card-img {
+        height: 400px; /* Reduce image height on smaller screens */
+    }
+        #city-land-image{
+            width:700px;
+        }
+        .our-team-text{
+            padding-bottom:0px;
+            padding-top:0px;}
+            #youtube-video{
+                width:560px;
+                height:315px;
+            }
+}
+      @media only screen and (max-width: 770px) {
+ 
+    
+      }
