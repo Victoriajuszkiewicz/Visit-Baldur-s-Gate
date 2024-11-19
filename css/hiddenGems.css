@@ -46,3 +46,20 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 990px) {
+    .gem-image{
+        height: 300px;
+        width:300px;
+    }
+    .gem-text{
+        font-family: 'MedievalSharp', sans-serif;
+        padding-left: 10px;
+      width: 500px;
+        padding:10px;
+        font-size:10px;
+    }
+    #gem-main-title{
+        font-size:14px;
+    }
+}
