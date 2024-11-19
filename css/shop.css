@@ -39,3 +39,22 @@ font-size: 30px;
   color: green;
 
 }
+@media only screen and (max-width: 990px) {
+  #shop-cards-main{
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    gap:10px;
+
+    }
+    .shop-title{
+      background-color: #C59E60;
+   
+  width:50%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  }
+  .hero-img-shop{
+    height: 400px;
+}
+}

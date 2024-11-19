@@ -9,7 +9,7 @@ const shopItems=document.querySelector("#shop-cards-main");
 //loop through all object (json database)
 data.forEach(item =>{
 const card= document.createElement('div');
-card.classList.add("card", "col-3","col-md-3","col-lg-3", "shop-item-card");
+card.classList.add( 'col-sm-6','col-med-6', 'col-lg-3', 'col-xl-3', "shop-item-card");
 card.innerHTML=`
 <img src="${item.img}" class="card-img-top" alt="${item.title}"/>
 <div class="card-body">

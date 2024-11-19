@@ -11,7 +11,7 @@ const container= document.querySelector('#cards-container');
 
  data.forEach(stay=>{
     const card= document.createElement('div');
-    card.classList.add('card', 'col-sm-3', 'the-whole-card');
+    card.classList.add('card', 'col-sm-12','col-med-6', 'col-lg-6', 'col-xl-4', 'the-whole-card');
     card.innerHTML = `
     <img src="${stay.image}" class="card-img-top" alt="${stay.name}">
     <div class="card-body stays-body-card">
