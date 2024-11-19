@@ -14,18 +14,11 @@
     .nav-list{
         margin-bottom:0px;
         list-style-type:none;
-        padding:0px;
-        display: flex;
-        justify-content: flex-end;
+        /* padding:0px; */
+        /* display: flex; */
+       text-align: end;
     }
-    .nav-list  {
-        list-style: none; 
-        display: flex; 
-        padding: 0 20px 0 0;
-        margin: 0;
-        justify-content: flex-end; 
-    
-    }
+
     .nav-item{
         margin-left: 20px; 
         font-size: 20px;
@@ -43,6 +36,26 @@
         color: inherit; 
         display: block; 
     }
+
+    .navbar-toggler{
+        color:#C59E60 ;
+      font-size: 30px;
+      margin-right:30px
+    }
+  
+    /* mobile version */
+    @media only screen and (max-width: 990px) {
+       .nav-item{
+        /* align-items: center; */
+        align-self: center;
+        text-align:center;
+       }
+       .nav-logo{
+        max-width: 100px; 
+        height: auto;
+    }
+      }
+
     /* END OF NAV STYLING */
 
     /* footer */
