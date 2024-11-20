@@ -1,26 +1,31 @@
-.shop-title{
-    background-color: #C59E60;
-  z-index: 2;
-width:40%;
-position: absolute;
-top: 50%;
-left: 30%;
-align-items: center;
-text-align: center;
-
+.hero-img-shop-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  position: relative;
+  width: 100%;
+  height: 600px;
 }
 .hero-img-shop{
-    position: relative;
     width: 100%;
-    height: 600px;
-    overflow: hidden;
-    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+}
+.shop-title{
+  background-color: #C59E60;
+  z-index: 1;
+width:40%;
+position: absolute;
+justify-content: center;
+text-align: center;
+align-items: center;
+text-align: center;
+object-fit: cover; 
 }
 .item-price{
   color: green;
 }
 .shop-item-card{
-
  max-width: 250px;
  width: 100%;
 }
@@ -29,7 +34,7 @@ margin-top: 50px ;
 margin-bottom: 50px;
 gap:20px;
 display: flex;
-flex-wrap: wrap;  /* Allow the cards to wrap to the next line */
+flex-wrap: wrap;  
 justify-content: space-around; 
 }
 .cart-icon{
@@ -39,22 +44,28 @@ font-size: 30px;
   color: green;
 
 }
+
+/* smaller sreen responsivness */
 @media only screen and (max-width: 990px) {
   #shop-cards-main{
     margin-top: 0px ;
     margin-bottom: 0px;
     gap:10px;
-
     }
     .shop-title{
       background-color: #C59E60;
-   
-  width:50%;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  font-size: 20px;
   }
-  .hero-img-shop{
+  .hero-img-shop-wrapper {
     height: 400px;
+}
+
+.small-text-on-footer{
+  font-size: 10px;
+}
+
+.shop-item-card{
+  width:300px !important;
 }
 }
