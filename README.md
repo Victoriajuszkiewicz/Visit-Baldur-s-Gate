@@ -28,26 +28,22 @@ Either open HTML file to see the website or install Live Server extention.
 - About page,
 - Contact page, 
 - Shopping cart (local goods),
-- Places of hospitality (hotels), 
+- Places of hospitality (hotels/stays), 
 - Hidden secrets/ places to visit (interactive map), 
 - Responsive design- for different screen sizes & for all modern browsers,
 - Interactive contact feature,
 - Validation for the contact form,
 - SEO keywords,
-- Accessibility (extra),
+- virtual tour video
 
 ### NICE TO HAVE:
 - Accessibility options (high contrast, big letters, audio controls),
-- Virtual tour,
 - Interactive itinerary builder,
 - Audio guides & narration
 - Local Event Calendar
 - Traveler Reviews and Ratings
 - 360-Degree Photos and Videos
 
-## to do:
-- footer styling
-- contact us function to send form handle form 
-- total basket styling , functions
-- about styling
-- responsivness
+### Overview 
+Home page
+![homepage](./assets/img/homePage.png)
