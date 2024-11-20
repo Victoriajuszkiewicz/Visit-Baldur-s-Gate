@@ -47,3 +47,9 @@ Either open HTML file to see the website or install Live Server extention.
 ### Overview 
 Home page
 ![homepage](./assets/img/homePage.png)
+
+About us page
+![aboutus](./assets/img/aboutUS.png)
+
+Mobile
+![mobileversion](./assets/img/mobile.png)
