@@ -53,3 +53,6 @@ About us page
 
 Mobile
 ![mobileversion](./assets/img/mobile.png)
+
+
+All rights reserved. 

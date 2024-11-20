@@ -16,17 +16,23 @@
     font-weight: 800;
     margin-bottom:15px;
 }
+#city-land-image{
+    width:700px;
+}
 /* second box our team */
 .our-team-main{
     background-color: #31511E;
     min-height: 700px;
   padding: 30px, 0; 
 }
-.our-team-main .container {
+.whole-card{
+    column-gap: 0px;
+}
+/* .our-team-main .container {
     display: flex;
     flex-direction: column;
     align-items: center;
- }  
+ }   */
 .card-name{
     background-color: rgb(197, 158, 96);
     font-style: italic;
@@ -36,22 +42,24 @@
 height: 500px;
 object-fit: cover; 
 width: 100%;
+margin:0px;
+padding:0px;
 }
 .our-team-text{
-    padding-bottom:30px;
-    padding-top:30px;
+padding-bottom:30px;
+padding-top:30px;
 color: #C59E60;
 font-family: 'MedievalSharp', sans-serif;
 font-weight: 800;
 } 
-
 .card-about-text{
     color: #fff;
     font-family: 'MedievalSharp', sans-serif;
 } 
+
 /* Flip effect ANIMATION */
 .image-flip {
-    perspective: 1000px;  /* Enables 3D space for flipping */
+    perspective: 1000px; 
 width:18rem;
 } 
 
@@ -59,11 +67,7 @@ width:18rem;
     position: relative;
     transition: transform 1s;
     transform-style: preserve-3d;
-}
-#city-land-image{
-    width:700px;
-}
-
+} 
 .frontside, .backside {
     position: absolute;
     top: 0;
@@ -73,28 +77,23 @@ width:18rem;
     height: 100%;
     -webkit-transition: transform 1s;
     transition: transform 1s;
-} 
-
+}  
 .frontside {
-    z-index: 2;  /* Keeps the front side on top initially */
+    z-index: 2; 
 }
-
 .backside {
-    transform: rotateY(180deg); /* Initially hidden behind the front side */
+    transform: rotateY(180deg); 
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
+} 
 /* Flip on hover */
 .image-flip:hover .mainflip {
-    transform: rotateY(180deg); /* Flips the card */
+    transform: rotateY(180deg); 
 }
-
-.bg-story-main{
+ .bg-story-main{
     margin:30px 0px 30px 0;
     font-family: 'MedievalSharp', sans-serif;
-
-}
+} 
 /* YOUTUBE video */
 #youtube-video{
     width:960px;
@@ -113,7 +112,7 @@ width:18rem;
         
     } 
     .image-flip {
-        max-width: 16rem; /* Smaller width on large screens */
+        max-width: 16rem; 
     }
 }
 @media only screen and (max-width: 990px) {
@@ -134,10 +133,10 @@ width:18rem;
       }
      
       .image-flip {
-        max-width: 14rem; /* Even smaller width on medium screens */
+        max-width: 14rem; 
     }
     .card-img {
-        height: 400px; /* Reduce image height on smaller screens */
+        height: 400px; 
     }
         #city-land-image{
             width:700px;
