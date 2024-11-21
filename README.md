@@ -1,5 +1,5 @@
 # Tourism website "Discover Baldur's Gate"
-
+See live: https://visit-buldurs-gate.netlify.app/ 
 ## Project Description
 "Discover Baldur's Gate" is an interactive tourism website binspired by city Baldur's Gate from Dungeons &D ragons lore and Baldur's Gate 3 game.
 
