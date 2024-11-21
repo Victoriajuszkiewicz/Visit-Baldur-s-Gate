@@ -1,30 +1,28 @@
 function loadHTML( elementID, filePath){
     const element= document.getElementById(elementID);
-    fetch(filePath)
-    .then(response=> response.text())
-.then(data => {
-    element.innerHTML= data;
-})
-.catch(error => {
-    console.error('Error loading HTML', error);
-})
+    const xhr = new XMLHttpRequest();
+
+    xhr.open('GET', filePath, true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            element.innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
 }
-
-
 function loadContactForm() {
-    fetch('contactForm.html')
-        .then(response => response.text())  // Get the content as text
-        .then(html => {
-            document.getElementById('contact-form-container').innerHTML = html;
-        })
-        .catch(error => {
-            console.error('Error loading the contact form:', error);
-        });
+const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'contactForm.html', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById('contact-form-container').innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
 }
-
 
 window.onload = function() {
-    loadHTML('nav-container', 'nav.html');  // Load the nav into the div with id 'nav-container'
-    loadHTML('footer-container', 'footer.html'); // Load the footer into the div with id 'footer-container'
-    loadContactForm();  // Load the contact form dynamically
+    loadHTML('nav-container', 'nav.html');
+    loadHTML('footer-container', 'footer.html');
+    loadContactForm();
 };
