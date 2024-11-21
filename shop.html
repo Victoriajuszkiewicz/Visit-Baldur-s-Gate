@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Visit Baldur's Gate- stays</title>
+    <title>Visit Baldur's Gate- shop</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/navFooter.css">
+    <link rel="stylesheet" href="./css/shop.css">
 <!-- Bootstrap icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <!-- Bootstrap styles -->
@@ -12,25 +15,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-<!-- STYLES -->
- <link rel="stylesheet" href="../css/stays.css">
- <link rel="stylesheet" href="../css/navFooter.css">
+
 </head>
 <body>
+    
     <div id="nav-container"></div>
-    <div class="container">
-        <h1 id="stays-text">Stays</h1>
-        <p>Rest your weary feet, gather new stories, and make Baldur’s Gate your home away from home.
-            Discover a variety of charming <B>accommodations</B> in Baldur's Gate – whether you’re looking for a luxurious inn, a cozy tavern, or a quiet hidden gem. 
-        </p>
-       <div class="row" id="cards-container">
-       <!-- render cards here from JS -->
-
-       </div>
+    <div class="hero-img-shop-wrapper">
+        <img src="./assets/img/shop.jpg" alt="shop local poster" class="hero-img-shop"/>
+        <h1 class="shop-title">Shop local goods from Baldur’s Gate</h1>
+    </div>
+    <div class="alert alert-success d-none" role="alert" id="cart-alert">
+       Your item was added to the list!
+      </div>
+<div class="container">
+<div class="row" id="shop-cards-main">
+    <!-- js cards atomatically rendered here -->
 </div>
+
+</div>
+<!-- footer -->
     <div id="footer-container"></div>
-    <!-- SCRIPTS JS -->
-<script src="../js/main.js"></script> 
-<script src="../js/stays.js"></script>
+    <!-- scripts -->
+<script src="./js/main.js"></script> 
+<script src="./js/shop.js"></script>
 </body>
     </html>
